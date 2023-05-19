@@ -9,9 +9,24 @@
             {
                 "name": "807496703385::multitracker_model",
                 "version": "1.0"
+            },
+            {
+                "name": "panorama::abstract_rtsp_media_source",
+                "version": "1.0"
             }
         ],
-        "nodes": [],
+        "nodes": [
+            {
+                "name": "my_camera",
+                "interface": "panorama::abstract_rtsp_media_source.rtsp_v1_interface",
+                "overridable": true,
+                "launch": "onAppStart",
+                "decorator": {
+                    "title": "Camera my_camera",
+                    "description": "Default description for camera my_camera"
+                }
+            }
+        ],
         "edges": []
     }
 }
