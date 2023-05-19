@@ -18,3 +18,8 @@ In `test_multitracker/multitracker` dir, run:
 In `test_multitracker/multitracker` dir, run:
 
 `panorama-cli add-panorama-package --type camera --name my_camera`
+
+## Add panorama app package entry file
+Create `app.py` in `packages/<APP_PACKAGE_DIR>/src`
+
+Edit `packages/<APP_PACKAGE_DIR>/descriptor.json`, set `runtimeDescriptor/entry/name` to `"/panorama/app.py"`
