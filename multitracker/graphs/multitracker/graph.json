@@ -1,7 +1,12 @@
 {
     "nodeGraph": {
         "envelopeVersion": "2021-01-01",
-        "packages": [],
+        "packages": [
+            {
+                "name": "807496703385::multitracker_app",
+                "version": "1.0"
+            }
+        ],
         "nodes": [],
         "edges": []
     }
